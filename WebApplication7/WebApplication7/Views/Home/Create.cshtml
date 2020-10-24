@@ -1,0 +1,13 @@
+﻿@model WebApplication7.Models.Math
+
+<div class="text-center">
+    <h1 class="display-4">Square finder</h1>
+    
+</div>
+<form method="post" asp-page="/Home/Create">
+    <div class="form-group">
+        <label asp-for="a"></label>
+        <input asp-for="a" />
+    </div>
+    <button type="submit" class="btn btn-primary">Solve</button>
+</form>
